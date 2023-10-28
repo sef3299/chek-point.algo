@@ -1,0 +1,16 @@
+var 
+p:STRING;
+i:INTEGER;
+v: « a », « e », « i », « o », « u » et « y »:CHAR:
+nv=0:INTEGER;
+write ("give the paragraphe")*
+
+
+    read(p)
+    write(lenght p)
+FOR i FROM 0 TO lenght(p) STEP 1  DO
+    IF (i(p)=v) THEN
+        nv=nv+1;
+    END_IF
+END_FOR
+
